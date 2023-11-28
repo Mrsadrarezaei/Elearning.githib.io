@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elearn</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="main.html"><img src="./Lovepik_com-401737218-education-logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-------Course-------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Solution</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime cupiditate iusto iure reiciendis veritatis 
+                    ex a recusandae nemo sequi quia ipsam culpa
+                    , cum id quisquam aliquam non odio fuga aperiam.</p>
+            </div>
+            <div class="course-col">
+                <h3>Tactis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime cupiditate iusto iure reiciendis veritatis 
+                    ex a recusandae nemo sequi quia ipsam culpa
+                    , cum id quisquam aliquam non odio fuga aperiam.</p>
+            </div>
+            <div class="course-col">
+                <h3>Active Reading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime cupiditate iusto iure reiciendis veritatis 
+                    ex a recusandae nemo sequi quia ipsam culpa
+                    , cum id quisquam aliquam non odio fuga aperiam.</p>
+            </div>
+        </div>
+    </section>
+    <!---------Facilities------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
+        <div class="row">
+            <div class="facilities-col" id="simg">
+                <img src="./Innovative Teaching Strategies (1).jpg">
+                <h3>The Modern Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minus, quidem animi? Eaque aliquam voluptatum similique.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./20191209online.jpg">
+                <h3>Online Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minus, quidem animi? Eaque aliquam voluptatum similique.</p>
+            </div>            
+            <div class="facilities-col">
+                <img src="./GettyImages-1220226_46923-e1695367738714-704x470.jpg">
+                <h3>Best Supporting Group</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minus, quidem animi? Eaque aliquam voluptatum similique.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!----Footer----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Mollitia corrupti vitae facilis fuga maxime, ipsa
+        error provident, dolores <br> praesentium nihil 
+        temporibus voluptatibus obcaecati eum quo aliquam repellat animi.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Polstar Group </p>
+        
+    </section>
+
+
+
+<!--JavaScrip-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
